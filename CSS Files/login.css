@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', 'sans-serif';
+    overflow-y: scroll;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0; 
+    height: 100%;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+p{
+    color: #555;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.box{
+    width: 900px;
+    background-color: white;
+    box-shadow: 0, 2px, 8px, black;
+    padding: 20px 20px;
+    margin-left: 300px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.logo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img{
+    width: 100px;
+
+}
+
+.login-container, .create-account{
+    text-align: left;
+}
+
+h2{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #5599e1;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(0, 139, 239);
+    border: 1px solid rgb(3, 44, 74);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #0a77ba;
+}
+
+.create-account{
+    padding: 10px;
+    background-color: #e7e9ec;
+    border: 1px solid rgb(3, 44, 74);
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.create-account:hover{
+    background-color: #d7d9dc;
+}
+
+.border{
+    display: flex;
+    margin: 20px 0;
+}
+
+.border hr{
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.border span{
+    margin: 0 10px;
+    color: #767676;
+}

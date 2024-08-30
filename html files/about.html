@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <main>
+
+
+        <div id="navbar"></div> 
+
+        <script>
+            fetch('navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading the navbar:', error));
+        </script>
+
+
+        <div class="about">
+            <h1>About Us</h1>
+            <p>We are very renowed company.</p>
+            <br>
+
+            <div class="mission">
+                <h2>Our Mission</h2>
+                <p>Our mission is to provide the best quality products to all our customers.</p>
+            </div>
+
+            <div class="values">
+                <h2>Our Values</h2>
+                <ul>
+                    <li><strong>Quality: </strong>We provide best quality product</li>
+                    <li><strong>Integrity: </strong>We are honest and transparent in our business dealings.</li>
+                    <li><strong>Customer First: </strong> Our customers are at the heart of everything we do.</li>
+                </ul>
+            </div>
+
+            <div class="history">
+                <h2>Our History</h2>
+                <p>Founded in 2010, our company has grown from a small startup to a leading player in the e-commerce
+                    industry. Our commitment to quality and customer satisfaction has been the driving force behind our
+                    success.</p>
+            </div>
+
+            <div class="team">
+                <h2>Meet the Team</h2>
+                <div class="team-members">
+                    <div class="team-member">
+                        <img src="images1.jpeg" alt="">
+                        <h3>Amrita Gupta</h3>
+                        <p>Founder & CEO</p>
+                    </div>
+
+                    <div class="team-member">
+                        <img src="images1.jpeg" alt="">
+                        <h3>Ankita Gupta</h3>
+                        <p>Chief Operating Officer</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
+    <footer></footer>
+</body>
+
+</html>

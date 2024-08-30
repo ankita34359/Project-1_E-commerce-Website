@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    background-color: #f4f4f4;
+    font-family: 'Poppins', 'sans-serif';
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    /* width: 80%; */
+    /* max-width: 1200px;
+    box-shadow: 0 0 5px; */
+    /* margin-top: 50px; */
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #333;
+}
+
+div {
+    margin: 0 0;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    color: #555;
+}
+
+.mission,
+.values,
+.history,
+.team {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;  */
+    /* align-items: center;   */
+    /* gap: 20px;  */
+}
+
+
+
+/* 1 */
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* .header{
+    background: radial-gradient(#fff, #ffd6d6);
+} */
